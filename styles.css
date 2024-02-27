@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #E5E5E5;
+}
+
+#black {
+    height: 436px;
+    width: 100%;
+    position: fixed;
+    background-color: #535971;
+    z-index: -1;
+}
+
+#container {
+    width: 750px;
+    margin: auto;
+}
+
+#hero {
+    padding-top: 140px;
+    padding-bottom: 18px;
+    width: 417px;
+    color: white;
+}
+
+h1, legend, p{
+    font-family: "Staatliches", sans-serif;
+}
+
+#hero p {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 58px;
+    font-size: 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+form {
+    background-color: white;
+    padding: 64px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+    border: 0px;
+    padding-top: 30px;
+}
+
+.camp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.camp label {
+    margin-bottom: 8px;
+}
+
+.camp input {
+    height: 56px;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.datetime {
+    display: flex;
+    gap: 20px;
+}
+
+.date {
+    width: 312px;
+}
+
+.time {
+    width: 128px;
+}
+
+legend {
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+    color: #545971;
+}
+
+fieldset div div p {
+    padding-top: 32px;
+    font-size: 20px;
+    line-height: 34px;
+    color: #545971;
+}
+
+span {
+    color: #C1BCCC;
+    padding-left: 8px;
+}
+
+#index {
+    display: flex;
+    gap: 22px;
+}
+
+#index div input {
+    width: 300px;
+}
+
+#button {
+    background-color: #535971;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff5374;
+    border-radius: 20px;
+    padding-left: 279px;
+    padding-right: 279PX;
+    height: 55px;
+    border: 0px;
+    margin: 52px auto;
+    font-family: "Staatliches", sans-serif;
+    color: white;
+    font-size: 20px;
+}

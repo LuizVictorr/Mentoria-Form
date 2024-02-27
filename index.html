@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Mentoria</title>
+</head>
+<body>
+    <div id="black"></div>
+    <div id="container">
+        <div id="hero">
+            <h1>MENTORIA</h1>
+            <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+        </div>
+        <form>
+            <fieldset>
+                <div>
+                    <legend>Informações pessoais</legend>
+                    <div id="index">
+                        <div class="camp">
+                            <label for="name">Nome *</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="camp">
+                            <label for="last-name">Sobrenome</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="camp">
+                        <label for="email">Email * <span>(digite um email válido)</span></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="camp">
+                        <label for="password">Senha * <span>(mínimo de 6 caracteres)</span></label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>INFORMAÇÕES DO MENTOR</legend>
+                    <div class="camp">
+                        <label for="mentor-name">Nome do seu mentor <span>(Só o primeiro nome)</span></label>
+                        <input type="text" name="mentor-name" id="mentor-name">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+                    <div>
+                        <p for="1-mentoria">PRIMEIRA MENTORIA</p>
+                        <div class="datetime">
+                            <div class="camp">
+                                <label for="1-date">Data <span>(DD/MM/AAAA)</span></label>
+                                <input type="date" name="1-date" class="date" id="1-date">
+                            </div>
+                            <div class="camp">
+                                <label for="1-horario">Das</label>
+                                <input type="time" name="1-horario" class="time" id="1-horario">
+                            </div>
+                            <div class="camp">
+                                <label for="horario-1">Até</label>
+                                <input type="time" name="horario-1" class="time" id="horario-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p for="1-mentoria">SEGUNDA MENTORIA</p>
+                        <div class="datetime">
+                            <div class="camp">
+                                <label for="2-date">Data <span>(DD/MM/AAAA)</span></label>
+                                <input type="date" name="2-date" class="date" id="2-date">
+                            </div class="camp">
+                            <div class="camp">
+                                <label for="2-horario">Das</label>
+                                <input type="time" name="2-horario" class="time" id="2-horario">
+                            </div class="camp">
+                            <div class="camp">
+                                <label for="horario-2">Até</label>
+                                <input type="time" name="horario-2" class="time" id="horario-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div id="button">
+            <button>Salvar</button>
+        </div>
+    </div>
+</body>
+</html>
